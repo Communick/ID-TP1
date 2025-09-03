@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var navLinks = document.querySelectorAll('[tag="navlink"]');
   navLinks.forEach(function(link) {
     link.addEventListener('click', function() {
-      alert('A navlink was clicked!');
+      alert('Redirecting to ' + link.textContent + ' page.');
     });
   });
 
